@@ -4,7 +4,6 @@ metadata:
   name: postgres-config
 data:
   DB_NAME: "postgres"
-  DB_HOST: "postgresql-service.default.svc.cluster.local"
-  # DB_HOST: "127.0.0.1"
+  DB_HOST: "10.100.207.122"
   DB_USER: "admin"
   DB_PORT: "5432"
